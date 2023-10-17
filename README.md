@@ -1,9 +1,9 @@
 # VigilantEye - Human Invasion Detection
 
-# Project Overview
+## Project Overview
 VigilantEye is a human invasion detection system that uses computer vision to monitor a specified area. This project utilizes OpenCV, cv2, IP Webcam, and Twilio to detect unauthorized human presence and send SMS alerts in real-time. The primary goal of this project is to enhance security and monitoring in various environments, including homes, offices, or any location where unauthorized access is a concern.
 
-# Features
+## Features
 - Real-Time Human Detection: VigilantEye employs OpenCV for real-time human detection using the video feed from an IP Webcam.
 
 - WhatsApp Alert: Whenever human intrusion is detected, the system sends WhatsApp alert using Twilio to the designated recipient along with the photo of intruder.
@@ -16,7 +16,7 @@ VigilantEye is a human invasion detection system that uses computer vision to mo
 
 - Logging: Log events and alerts for future reference.
 
-# Prerequisites
+## Prerequisites
 Before using VigilantEye, make sure you have the following:
 
 - Python (3.x recommended)
@@ -26,7 +26,7 @@ Before using VigilantEye, make sure you have the following:
 - Twilio Account SID and Auth Token
 - Twilio phone number
 
-# Setup and Configuration
+## Setup and Configuration
 1. Clone the Repository:
    git clone https://github.com/imdevesh01/VigilantEye.git
    cd VigilantEye
@@ -42,7 +42,7 @@ Before using VigilantEye, make sure you have the following:
 5. Run the Application:
    python vigilant_eye.py
 
-# Usage
+## Usage
 -- Start the IP Webcam app on your mobile device and note the URL it provides for the video feed.
 
 -- Run the VigilantEye application.
@@ -53,10 +53,10 @@ Before using VigilantEye, make sure you have the following:
 
 -- The event logs can be found in the event_logs.txt file for future reference.
 
-# Contributing
+## Contributing
   Contributions are welcome! If you'd like to contribute to VigilantEye, please follow the standard practices for forking the repository, creating a new branch for your work, and submitting pull requests.
 
-# Contact
+## Contact
   For any questions or feedback, feel free to contact me at:
   Email: 12112033it@gmail.com
   We hope that VigilantEye enhances security and provides a valuable solution for human invasion detection. Thank you for using VigilantEye!
