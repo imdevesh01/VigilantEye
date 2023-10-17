@@ -1,4 +1,4 @@
-## VigilantEye - Human Invasion Detection
+# VigilantEye - Human Invasion Detection
 
 # Project Overview
 VigilantEye is a human invasion detection system that uses computer vision to monitor a specified area. This project utilizes OpenCV, cv2, IP Webcam, and Twilio to detect unauthorized human presence and send SMS alerts in real-time. The primary goal of this project is to enhance security and monitoring in various environments, including homes, offices, or any location where unauthorized access is a concern.
